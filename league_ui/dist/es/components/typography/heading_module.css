@@ -1,0 +1,56 @@
+.heading_1c9d4 {
+	font-family: var(--lol-font-family-beaufort);
+	scroll-margin-top: 5rem;
+	text-transform: uppercase;
+}
+
+.h1_1c9d4 {
+	font-size: var(--lol-font-size-h1);
+	line-height: var(--lol-line-height-h1);
+	letter-spacing: var(--lol-letter-spacing-h1);
+	font-weight: var(--lol-font-weight-h1);
+}
+
+.h2_1c9d4 {
+	font-size: var(--lol-font-size-h2);
+	line-height: var(--lol-line-height-h2);
+	letter-spacing: var(--lol-letter-spacing-h2);
+	font-weight: var(--lol-font-weight-h2);
+}
+
+.h3_1c9d4 {
+	font-size: var(--lol-font-size-h3);
+	line-height: var(--lol-line-height-h3);
+	letter-spacing: var(--lol-letter-spacing-h3);
+	font-weight: var(--lol-font-weight-h3);
+}
+
+.h4_1c9d4 {
+	font-size: var(--lol-font-size-h4);
+	line-height: var(--lol-line-height-h4);
+	letter-spacing: var(--lol-letter-spacing-h4);
+	font-weight: var(--lol-font-weight-h4);
+}
+
+.h5_1c9d4 {
+	font-size: var(--lol-font-size-h5);
+	line-height: var(--lol-line-height-h5);
+	letter-spacing: var(--lol-letter-spacing-h5);
+	font-weight: var(--lol-font-weight-h5);
+}
+
+.grey100_1c9d4 {
+	color: var(--lol-color-grey-100);
+}
+
+.gold100_1c9d4 {
+	color: var(--lol-color-gold-100);
+}
+
+.gold200_1c9d4 {
+	color: var(--lol-color-gold-200);
+}
+
+.gold400_1c9d4 {
+	color: var(--lol-color-gold-400);
+}

@@ -1,0 +1,37 @@
+.trigger_3b77a {
+	color: var(--lol-color-grey-100);
+	font-family: var(--lol-font-family-beaufort);
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding: 0.5rem 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.trigger_3b77a:active, .trigger_3b77a:hover {
+		color: var(--lol-color-gold-100);
+	}
+
+.triggerIcon_3b77a {
+	margin-left: .125rem;
+	margin-right: .5rem;
+	display: inline-block;
+	rotate: 90deg;
+	font-size: var(--lol-font-size-sm);
+}
+
+.item_3b77a {
+	border-bottom: 1px solid var(--lol-color-gold-600);
+}
+
+.item_3b77a:last-of-type {
+		border-bottom: none;
+	}
+
+.content_3b77a {
+	padding: 1rem 0;
+	color: var(--lol-color-grey-100);
+	font-family: var(--lol-font-family-spiegel);
+}

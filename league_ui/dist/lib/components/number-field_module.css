@@ -1,0 +1,54 @@
+.group_b1efb {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	gap: 1px;
+	padding: 1px;
+	outline: none;
+}
+
+.group_b1efb.normal_b1efb {
+		background-image: var(--lol-gradient-gold);
+	}
+
+.group_b1efb.dimmed_b1efb {
+		background-image: var(--lol-gradient-grey-300);
+	}
+
+.group_b1efb.disabled_b1efb {
+		background-image: var(--lol-gradient-disabled);
+	}
+
+.group_b1efb.focusWithin_b1efb {
+		background-image: var(--lol-gradient-gold-hover);
+	}
+
+.input_b1efb {
+	background-color: var(--lol-color-hextech-black);
+	color: var(--lol-color-gold-100);
+	font-family: var(--lol-font-family-spiegel);
+	font-size: 0.75rem;
+	padding: 0.5rem 0.75rem;
+	line-height: 1rem;
+	width: 100%;
+	outline: none;
+}
+
+.input_b1efb.disabled_b1efb {
+		background-color: var(--lol-color-grey-300);
+		color: var(--lol-color-grey-100);
+	}
+
+.input_b1efb.focus_b1efb {
+		background-image: var(--lol-gradient-grey-focus);
+	}
+
+.button_b1efb {
+	color: var(--lol-color-gold-100);
+	background-color: var(--lol-color-hextech-black);
+	padding: 0 0.625rem;
+}
+
+.button_b1efb.disabled_b1efb {
+		color: var(--lol-color-grey-150);
+		background-color: var(--lol-color-grey-300);
+	}

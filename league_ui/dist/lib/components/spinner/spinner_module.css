@@ -1,0 +1,16 @@
+.spinner_497bb {
+	aspect-ratio: 1/1;
+	width: 3rem;
+	animation: spin_497bb 1s linear infinite;
+}
+
+
+@keyframes spin_497bb {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}

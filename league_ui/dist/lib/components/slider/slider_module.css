@@ -1,0 +1,60 @@
+.track_e4d5d {
+	position: relative;
+	height: 1.75rem;
+	width: 100%;
+}
+
+.background_e4d5d {
+	background-color: var(--lol-color-grey-300);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 2px;
+	width: 100%;
+	border-radius: 9999px;
+}
+
+.foreground_e4d5d {
+	background-image: linear-gradient(to right, var(--lol-color-gold-600), var(--lol-color-gold-500));
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 2px;
+	width: 100%;
+	border-radius: 9999px;
+}
+
+.foreground_e4d5d.disabled_e4d5d {
+		background-image: linear-gradient(to right, #5c5b57, #5c5b57);
+	}
+
+.track_e4d5d:hover .foreground_e4d5d {
+	background-image: linear-gradient(to right, var(--lol-color-gold-500), var(--lol-color-gold-400), var(--lol-color-gold-200));
+}
+
+.track_e4d5d:active .foreground_e4d5d {
+	background-image: linear-gradient(to right, var(--lol-color-gold-500), var(--lol-color-gold-600), var(--lol-color-gold-600));
+}
+
+.thumb_e4d5d {
+	background-image: url(../../assets/normal.e4c594a1.png);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 1.75rem;
+	width: 1.75rem;
+	background-size: cover;
+	outline: none;
+}
+
+.thumb_e4d5d.disabled_e4d5d {
+		background-image: url(../../assets/disabled.87ad565d.png);
+	}
+
+.thumb_e4d5d.thumbDragging_e4d5d {
+		background-image: url(../../assets/active.4113e6b2.png);
+	}
+
+.track_e4d5d:hover .thumb_e4d5d:not(.thumbDragging_e4d5d):not(.otherThumbDragging_e4d5d) {
+	background-image: url(../../assets/hover.404fa456.png);
+}

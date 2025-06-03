@@ -1,0 +1,23 @@
+.breadCrumb_75d07 {
+	display: flex;
+	align-items: center;
+}
+
+.breadCrumbLink_75d07 {
+	font-family: var(--lol-font-family-beaufort);
+	color: var(--lol-color-gold-300);
+	position: relative;
+	font-size: var(--lol-font-size-sm);
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding: 0 1rem;
+}
+
+.breadCrumbLink_hover_75d07 {
+	color: var(--lol-color-gold-100);
+}
+
+.breadCrumbDivider_75d07 {
+	height: 11px;
+}

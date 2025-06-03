@@ -1,0 +1,17 @@
+.checkbox_8a1c7 {
+	font-family: var(--lol-font-family-spiegel);
+	color: var(--lol-color-grey-100);
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	gap: 0.25rem;
+	font-size: .75rem;
+	letter-spacing: .1em;
+}
+.checkbox_8a1c7.hover_8a1c7 {
+		color: var(--lol-color-gold-100);
+	}
+.checkbox_8a1c7.disabled_8a1c7 {
+		filter: brightness(0.5);
+		cursor: default;
+	}

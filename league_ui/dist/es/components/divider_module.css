@@ -1,0 +1,29 @@
+.divider_1f6a1 {
+	height: 1px;
+	flex-grow: 1;
+	border: none;
+}
+
+.left_1f6a1 {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--lol-color-gold-600));
+}
+
+.center_1f6a1 {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--lol-color-gold-600), rgba(0, 0, 0, 0));
+}
+
+.right_1f6a1 {
+	background-image: linear-gradient(to right, var(--lol-color-gold-600), rgba(0, 0, 0, 0));
+}
+
+.block_1f6a1 {
+	width: 5px;
+	height: 5px;
+	border: 1px solid var(--lol-color-gold-600);
+	rotate: 45deg;
+}
+
+.wrapper_1f6a1 {
+	display: flex;
+	align-items: center;
+}
