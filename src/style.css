@@ -1,0 +1,183 @@
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(35, 35, 35);
+}
+.h {
+  margin: 5px;
+}
+.heading {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: none !important;
+}
+
+.pls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.totalpoints {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-container {
+  width: 10%;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.roster-container {
+  width: 90%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: end;
+  padding: 20px;
+}
+
+.buttons-roster-container {
+  display: flex;
+}
+
+.player-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items-container {
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.item {
+  padding: 4px 10px;
+  min-height: 50px;
+  margin: 4px 10px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+.button {
+  text-align: left;
+  min-width: 250px;
+}
+
+.rolebutton {
+  min-width: 120px;
+  min-height: 50px;
+}
+
+.test {
+  display: grid;
+}
+
+.bar {
+  background-color: rgb(49, 49, 49);
+}
+
+.pika {
+  width: 100%;
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+.bigbar {
+  display: flex;
+  align-items: center;
+  min-width: 1000px;
+}
+.lefttext {
+  text-transform: capitalize;
+  display: flex;
+}
+
+.righttext {
+  color: green !important;
+}
+
+.bigpoints {
+  display: flex;
+  color: green !important;
+  align-items: center;
+}
+
+.redbigpoints {
+  display: flex;
+  color: red !important;
+  align-items: center;
+}
+
+.hugepoints {
+  display: flex;
+  justify-content: center;
+  color: rgb(32, 154, 32) !important;
+}
+
+.vstext {
+  display: flex;
+  text-transform: none;
+  flex-direction: column;
+}
+
+.deaths {
+  color: red !important;
+}
+
+.loss {
+  color: yellow !important;
+}
+
+.champ {
+  display: flex;
+  margin-right: 5px;
+  align-items: center;
+}
+
+.midtext {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.details {
+  margin-right: 10px;
+}
+
+.playerimage {
+  max-width: 200px;
+  max-height: 200px;
+  padding-bottom: 15px;
+}
+
+.modalpad {
+  margin-bottom: 30px;
+}
+
+.confirm {
+  color: violet !important;
+  color: var(--lol-color-blue-100);
+  --lol-button-border-gradient: var(--lol-gradient-hextech) !important;
+  --lol-button-background-gradient: var(--lol-gradient-grey-300) !important;
+}
